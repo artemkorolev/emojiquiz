@@ -1,12 +1,9 @@
-package net.avedernikov.emojiquiz.utils
+package net.emojiquiz.utils
 
-import com.typesafe.emoji.{Emoji, ShortCodes}
+import com.lightbend.emoji.{Emoji, ShortCodes}
 
 import scala.util.Random
 
-/**
-  * @author Artem Vedernikov
-  */
 object EmojiUtils {
 
   val Emojis = ShortCodes.Defaults.defaultImplicit.emojis
