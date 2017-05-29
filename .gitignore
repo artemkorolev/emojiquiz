@@ -1,0 +1,49 @@
+.vagrant
+Vagrantfile
+.project
+.settings
+.classpath
+
+# ignore Intellij Idea IDE folder
+*/data
+*/data/
+target
+*.ec
+*.ipr
+*.iws
+*.swp
+*~
+*.log
+.idea/
+*.sqlite
+*.out
+git.properties
+lib
+
+
+# Python stuff #
+################
+*.pyc
+*.egg-info
+dist
+build
+develop-eggs
+eggs
+parts
+.installed.cfg
+logs
+*.MainThread-*
+*.pid
+*.pid.lock
+test/.coverage
+test/coverage.xml
+test/nosetests.xml
+scalastyle-output.xml
+
+
+# Mac OS stuff #
+################
+.DS_Store
+
+# Telegram bot token
+*.token
